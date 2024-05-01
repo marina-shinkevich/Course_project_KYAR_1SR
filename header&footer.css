@@ -1,0 +1,242 @@
+header {
+    display: inline-block;
+    margin-top: -10px;
+    background: #111f35;
+    width: 1555px;
+    margin-left:0cap;
+    z-index: 1;
+}
+
+.headerAv{
+    width: 1780px;
+    position: fixed;
+    margin-left: -250px;
+}
+.top-nav {
+    font-family: 'Century Gothic';
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFF;
+    height: 20px;
+    padding: 1.5em;
+    margin: 7px;
+}
+
+.top-nav .logo a {
+    font-size: 23px;
+    margin-left:0px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    width: 80px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: color 0.2s ease-in-out;
+    margin-left: 0px;
+}
+
+.top-nav .menu {
+    display: inline-block;
+    list-style-type: none;
+    margin-bottom: 90px;
+    margin-right: 0px;
+    margin-left: 50px;
+    padding-left: 20px;
+}
+
+.top-nav .menu a:hover {
+    color: #a9a9a9;
+}
+
+.top-nav .menu > li {
+    margin: 0 75px 70px;
+    overflow: hidden;
+}
+.top-nav .menu > .liav {
+    margin: 0px 60px 70px;
+    overflow: hidden;
+}
+.top-nav .menu-button-container {
+    display: none;
+    height: 100%;
+    width: 30px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+li {
+    display: inline-block;
+}
+
+* {
+    font-family: 'Century Gothic';
+}
+
+    @media only screen and (max-width: 780px) {
+        .top-nav .menu {
+            display: hidden;
+            transition: opacity 0.3s;
+        }
+    
+        .top-nav .menu-button-container {
+            display: flex;
+            margin-top: -20%;
+            margin-left: 20%;    
+        }
+        .top-nav #menu-button-container {
+            display: flex;
+            margin-top: -18%;
+            margin-left: 18%;    
+        }
+        header{
+            height: 240px;
+        }
+        .menu-button {
+            display: block;
+            margin-left: -250px;
+            margin-top: 180px;
+           font-size: 25px;
+            border-style: none;
+            background-color:#111f35;
+            color: #FFF;
+        }
+        #menu-button {
+            display: block;
+            margin-left: -290px;
+            margin-top: 200px;
+           font-size: 25px;
+            border-style: none;
+            background-color:#111f35;
+            color: #FFF;
+        }
+    
+        body {
+            background-size: 300%;
+        }
+        .bodyav {
+            background-size:1300%;
+            width: 430px;
+        }
+    .top-nav .menu-button-container:hover + .menu,.top-nav .menu:hover {
+    
+            display:inline-block ;   
+            position: absolute; 
+            opacity: 1;  
+        } 
+        .top-nav {
+        margin: 0px;
+    }
+    .top-nav .logo svg {
+            block-size: 170px;
+            margin-left: 20px;
+            margin-top: 5%;
+        }
+    .top-nav #logoav svg {
+            block-size: 200px;
+            margin-left: 20px;
+            margin-top: 5%;
+        }
+        li {
+            display:inline;
+            text-align:center ; 
+          }
+          .top-nav .menu{
+            display:inline-block;
+            margin-top: 10px;
+            margin-left: 40px;
+           
+            text-align: center;
+          }
+          .top-nav #menuav{
+            display:inline-block;
+            margin-top: -30px;
+           font-size: larger;
+            margin-left: 90px;
+            text-align: center;
+          }
+          .top-nav .menu a{
+          
+              display:block;
+              width: 70px;
+              font-size :15px ;
+              margin-top:-10px ;
+              margin-left :150px ;
+              text-align:center;
+          }
+          .p1{
+            display: block;
+            font-size:15px;
+            padding: 10ch;
+            padding-left: 10px;
+            padding-top: 3%;
+            }
+            .p1av{
+                display: block;
+                font-size: larger;
+                padding: 10ch;
+                padding-left: 10px;
+                padding-top: 4%;
+                }
+            footer{
+                margin-top: -170px;
+                }
+                footer div{
+                    display: inline-block;
+                    margin-left: -16px;
+                    margin-top: -1px; 
+                    }  
+                    .fot{
+                    margin-top: 100px;
+                    }
+        }
+        .iconteg svg{
+            display: flex;
+          block-size:140px; ;
+        } 
+       footer {  
+    position:relative ;
+    background: #111f35;
+    margin-top: 280px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    height: 140px;
+    text-align: center;
+    }
+    footer a{
+        text-decoration: none;
+    }
+    .footerav{
+margin-top: 70px;
+margin-left: -10px;
+margin-right: -51px;
+margin-bottom: -20px;
+height: 100px;
+text-align: center;
+    } 
+    .social-icons {
+    list-style: none;
+    }
+    .social-icons li {
+    display: inline-block;
+    }
+    .social-icons img {
+    width: 40px;
+    height: 40px;
+    } 
+    .p1{
+    display: inline-block;
+    margin-top: 0cap;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    }
