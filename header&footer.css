@@ -244,6 +244,14 @@ li {
                     padding-left: 10px;
                     padding-top: 13%;
                     } 
+                    .footerav a{
+                        margin-top: 70px;
+                        margin-left: -10px;
+                        margin-right: -51px;
+                        margin-bottom: -20px;
+                        height: 100px;
+                        text-align: center;
+                            } 
 
         }
         .iconteg svg{
