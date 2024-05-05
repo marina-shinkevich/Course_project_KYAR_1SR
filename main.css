@@ -1,6 +1,8 @@
 body {
           
     background-image: url('qfxt6l12.png');
+    display: flex;
+ flex-direction: column;
     position: fixed;
     background-size: 1550px;
     margin: 0;
@@ -9,47 +11,57 @@ body {
     height: 100%;
 }
 
-    @media only screen and (max-width: 400px) {
+    @media only screen and (max-width: 450px) {
         body {
             background-size: 300%;
         }
             .detail #zag {
             backdrop-filter: blur(0px);
             display: block;
-            font-size:35px; 
+            font-size:25px; 
             margin-bottom: 90px;
-            margin-top: 40px;   
+            margin-top: 70px;   
          }
-     .pp{
+       
+     
+     #pp{
         display:inline-block;
-        color: #ffffff;
-        margin-top:-70px;
-        font-size: 15px;
+        
+        margin-top:-90px;
+       
      }
     }
     .detail .zag {
         display: inline-block;
         background: transparent;
-        
+        margin-left: 20px;
         backdrop-filter: blur(75px);
-        font-size: 50px;
+        font-size: 60px;
         color: #ffffff;
         font-family:'Century Gothic';
     }
 
     .detail a {
-        font-size: 20px;
+        font-size:30px;
         font-family:'Century Gothic';
        
     }
+    .pp{
+        display:block;
+        color: #ffffff;
+        font-size: 20px;
+     }
 
     .detail .arrow {
-        font-size: 20px;
+      
+        margin-left: 20px;
         animation: arrow 1s infinite;
         transition: all .3s ease;
     }
+  
     p{
         display: block;
+        margin-left: 20px;
         color: #ffffff;
     }
 

@@ -6,13 +6,16 @@ body {
   background-image: url("https://catherineasquithgallery.com/uploads/posts/2021-02/1613250949_195-p-skachat-oboi-temno-sinii-fon-209.jpg");
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
   #card-container {
-    margin-left: 20px;
+    margin-left: 0px;
     width: 100%;
   }
   #card-container #card {
     width: 400px;
+  }
+  body {
+    width: 85%;
   }
 }
 .p1av {
@@ -36,11 +39,9 @@ p {
 
 .p1av {
   display: inline-block;
-  margin-top: 0cap;
   margin-bottom: 10px;
-  margin-left: 40px;
   color: #FFF;
-  margin-left: 280px;
+  margin-left: 275px;
 }
 
 .card-container {
@@ -196,7 +197,7 @@ p {
   .card1 {
     margin: 0 30px;
     margin-top: 330px;
-    padding-left: 20px;
+    padding-left: 0px;
     padding-right: 50px;
     padding-bottom: 60px;
     width: 80%;
@@ -204,8 +205,9 @@ p {
     flex-direction: column;
   }
   .card1 h2 {
-    margin-right: 0;
-    font-size: 26px;
+    margin-right: -18px;
+    font-size: 30px;
+    margin-left: 10px;
   }
   .card1 img {
     margin: -100px 0 30px 0;
@@ -214,7 +216,10 @@ p {
     height: 250px;
   }
   .card1 p {
-    max-width: 360px;
+    max-width: 400px;
+  }
+  .card1 button {
+    margin-left: 30px;
   }
 }
 @media (width <= 440px) {
@@ -222,6 +227,16 @@ p {
     height: 45vw;
     width: 45vw;
     border-radius: 50%;
-    margin: -140px 0 30px 0;
+    margin: -100px -50px 20px 0;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 800px) {
+  .card1 {
+    margin-left: 80px;
+    margin-top: 250px;
+  }
+  body {
+    width: 95%;
   }
 }

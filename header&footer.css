@@ -1,16 +1,27 @@
 header {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
     margin-top: -10px;
+    letter-spacing: 0px;
     background: #111f35;
-    width: 1555px;
+   
     margin-left:0cap;
     z-index: 1;
 }
-
+header::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
 .headerAv{
-    width: 1780px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+
+  width: 150%;
     position: fixed;
-    margin-left: -250px;
+    margin-left: -200px;
 }
 .top-nav {
     font-family: 'Century Gothic';
@@ -25,6 +36,8 @@ header {
 }
 
 .top-nav .logo a {
+   
+ 
     font-size: 23px;
     margin-left:0px;
     text-decoration: none;
@@ -33,10 +46,11 @@ header {
     font-size: 1.2rem;
     font-weight: 600;
     transition: color 0.2s ease-in-out;
-    margin-left: 0px;
+   
 }
 
 .top-nav .menu {
+    display: flex;
     display: inline-block;
     list-style-type: none;
     margin-bottom: 90px;
@@ -50,11 +64,11 @@ header {
 }
 
 .top-nav .menu > li {
-    margin: 0 75px 70px;
+    margin: 0 50px 30px;
     overflow: hidden;
 }
 .top-nav .menu > .liav {
-    margin: 0px 60px 70px;
+    margin: 0px 55px 70px;
     overflow: hidden;
 }
 .top-nav .menu-button-container {
@@ -70,7 +84,7 @@ header {
 ul {
     display: inline-block;
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 20px;
     margin-bottom: 30px;
 }
 
@@ -82,7 +96,7 @@ li {
     font-family: 'Century Gothic';
 }
 
-    @media only screen and (max-width: 780px) {
+    @media only screen and (max-width: 790px) {
         .top-nav .menu {
             display: hidden;
             transition: opacity 0.3s;
@@ -112,7 +126,7 @@ li {
         }
         #menu-button {
             display: block;
-            margin-left: -290px;
+            margin-left: -320px;
             margin-top: 200px;
            font-size: 25px;
             border-style: none;
@@ -121,7 +135,8 @@ li {
         }
     
         body {
-            background-size: 300%;
+            background-size: 200%;
+       
         }
         .bodyav {
             background-size:1300%;
@@ -143,7 +158,7 @@ li {
         }
     .top-nav #logoav svg {
             block-size: 200px;
-            margin-left: 20px;
+            margin-left: 0px;
             margin-top: 5%;
         }
         li {
@@ -157,11 +172,12 @@ li {
            
             text-align: center;
           }
+       
           .top-nav #menuav{
             display:inline-block;
             margin-top: -30px;
            font-size: larger;
-            margin-left: 90px;
+            margin-left:50px;
             text-align: center;
           }
           .top-nav .menu a{
@@ -178,14 +194,14 @@ li {
             font-size:15px;
             padding: 10ch;
             padding-left: 10px;
-            padding-top: 3%;
+            padding-top: 6%;
             }
             .p1av{
                 display: block;
                 font-size: larger;
-                padding: 10ch;
-                padding-left: 10px;
-                padding-top: 4%;
+               
+               margin-left: 274px;
+                padding-top: 10%;
                 }
             footer{
                 margin-top: -170px;
@@ -196,8 +212,39 @@ li {
                     margin-top: -1px; 
                     }  
                     .fot{
-                    margin-top: 100px;
+                        height: 100px;
+                        width: 100%;
+                        margin-right: -30px;
                     }
+                    
+        }
+
+        @media only screen and (max-width: 460px) {
+            body {
+                background-size: 300%;
+           
+            }
+            .fot{
+                height: 200px;
+                width: 100%;
+                margin-right: -30px;
+            }
+            .fot a{
+                margin-left: 0px;
+            }
+            footer div{
+                display: inline-block;
+                margin-left: -16px;
+                margin-top: 10px; 
+                } 
+                .p1{
+                    display: block;
+                    font-size:15px;
+                    padding: 10ch;
+                    padding-left: 10px;
+                    padding-top: 13%;
+                    } 
+
         }
         .iconteg svg{
             display: flex;
@@ -206,16 +253,32 @@ li {
        footer {  
     position:relative ;
     background: #111f35;
-    margin-top: 280px;
+    margin-top: 200px;
     margin-left: -10px;
     margin-right: -10px;
-    margin-bottom: -10px;
-    height: 140px;
+    margin-bottom: 0px;
+    height: 170px;
     text-align: center;
+    }
+    .fot {
+        position: fixed;
+        height: 150px;
+        margin-top: 100px;
+    margin-left: -10px;
+    margin-right: -10px;
+        bottom: 0;
+        width: 110%;
+        background: #111f35;/* Цвет фона футера */
+        color: white; /* Цвет текста */
+        padding: 20px; /* Внутренний отступ */
+        box-sizing: border-box; /* Учитываем padding внутри ширины элемента */
     }
     footer a{
         text-decoration: none;
+        margin-left: -130px;
+        
     }
+   
     .footerav{
 margin-top: 70px;
 margin-left: -10px;
@@ -229,6 +292,7 @@ text-align: center;
     }
     .social-icons li {
     display: inline-block;
+
     }
     .social-icons img {
     width: 40px;
@@ -236,7 +300,12 @@ text-align: center;
     } 
     .p1{
     display: inline-block;
-    margin-top: 0cap;
-    margin-bottom: 10px;
-    margin-left: 40px;
+    margin-top: -1cap;
+    margin-bottom: 15px;
+    margin-left: 35px;
     }
+    @media (min-width:480px) and (max-width: 790px) { 
+        .p1av{
+            padding-top: 6% ;
+        }
+     }

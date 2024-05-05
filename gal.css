@@ -5,7 +5,7 @@ body {
      height: 100%;
      background-image: url('gal.jpg');   
  }
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 450px) {
     
      body {
          background-size:1300%;
@@ -32,7 +32,31 @@ margin-left: 20px;
       }
  .line{
          width: 200px;
-      }
+      }}
+
+      @media only screen and (max-width: 790px) {
+    
+
+         
+   .navv{
+   display: block;
+   padding-top: 90px;
+   padding-bottom: 10px;
+   color: #032030;
+   font-size: 30px;
+   }
+   
+         .textcols-item1 {
+   display: block;
+   margin-top: -200px;
+   margin-left: 20px;
+   }
+         video{
+        width: 100%;
+        margin-left: 20px;
+        margin-top: -50px;
+         }
+  
       }
 
       .p1av{
@@ -60,13 +84,13 @@ width: 100%;
 display: inline-block;
 width: 50%;
 margin-left: 0px;
-margin-top: 50px;
+margin-top: 10px;
 
 }
 figcaption{
 display:block;
 width:50%;
-margin-top: 50px;
+
 color: #032030;
 background-color: #f0f3fa;
 }
@@ -85,7 +109,7 @@ display: block;
 margin-top: -200px;
 margin-left: 20px;
 /* vertical-align: top; */
-font-size: 20px;
+font-size: 10px;
 }
 
 figcaption h2{
@@ -122,9 +146,44 @@ margin-left: 20px;
 font-family: 'Bahnschrift Light';
 
 }
-@media only screen and (max-width: 600px) {
+@media (min-width:480px) and (max-width: 800px) { 
+    body {
+        background-size:1300%;
+        width: 95%;
+    }
+    video{
+        width: 70%;
+        margin-left: 20px;
+        margin-top: 0px;
+         }
+   #bmv1{
+    font-size: 15px;
+   }
+  #ph3 , #ph1, #ph2,#ph4,#ph5, #ph6{
+    width: 50%;
+    height: 60%;
+}
+#textcols-item1{
+    font-size: smaller;
+}
+#textcols-item{
+    font-size: smaller;
+}
+#figcaption{
+    width: 350px;
+    height: 350px;
+}
+#hh2{
+    font-size: 15px;
+    width: 90%;
+}
+#but{
+    margin-left: 300px;
+ }
+ }
+@media only screen and (max-width: 450px) {
  .img1 {
-     width: 60%;
+     width: 50%;
      height: 60%;
  }
  .bmv2{
@@ -150,7 +209,7 @@ font-family: 'Bahnschrift Light';
      width: 100%;
  }
  figcaption{
-     width: 280%;
+     width: 57%;
      height: 280px;
     background-color: #d0e1fc;
     margin-top: 10px;
@@ -170,11 +229,87 @@ font-family: 'Bahnschrift Light';
  }
  .h24{
      font-size: 15px;
+    
  }
+ #hh2{
+    font-size: 15px;
+    margin-top: -10px;
+    width: 80%;
+ }
+ #bmv, #AUDI,#LEXUS{
+    font-size: 25px;
+ }
+ 
  #but{
-    margin-left: 150px;
+    margin-left: 130px;
+    margin-top: -40px;
  }
+ video{
+    width: 100%;
+    margin-left: 15px;
+    margin-top: -40px;
+     }
+     body{
+        width: 90%;
+     }
+     .img1 {
+     margin-top: 70px;
+    }
 }
+@media only screen and (min-width: 740px) {
+  
+
+    .img1 {
+        width: 60%;
+        height: 60%;
+    }
+    .bmv2{
+        font-size: 25px;
+    }
+   
+    .bmv1 {
+        font-size: 25px;
+    }
+    .bmv3{
+        font-size: 25px;
+    }
+    .bmv4{
+        font-size: 25px;
+    }
+    figcaption{
+        margin-left: 0px;
+        margin-top: 30px;
+        margin-right: -40px;
+        width: 100%;
+    }
+    .line {
+        width: 100%;
+    }
+    figcaption{
+        width: 280%;
+        height: 380px;
+       background-color: #d0e1fc;
+       margin-top: 10px;
+    }
+    figure{
+        margin-left: 0;
+        margin-right:0;
+    }
+   
+    .textcols-item1 {
+        font-size: 20px;
+        margin-top: -250px;
+    }
+    .textcols-item {
+        font-size: 20px;
+        margin-top: -250px;
+    }
+    .h24{
+        font-size: 25px;
+    }
+  
+   }
+
 .line{
 display: inline-block;
 color: #006da4;
