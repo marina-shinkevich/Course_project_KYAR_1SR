@@ -8,6 +8,9 @@ body {
   width: 96%;
   height: 100%;
   background-image: $body-background;
+
+  height: 100vh;
+  margin: 0;
 }
 
 @media only screen and (max-width: 450px) {
@@ -55,6 +58,7 @@ p {
 
 .card-container {
   display: block;
+
   text-align: center;
   gap: 40px;
   margin-left: 30px;
@@ -158,8 +162,9 @@ p {
 
 .card1 {
   display: flex;
+  text-align: center;
   align-items: center;
-  margin-left: 400px;
+  margin-left: 300px;
   margin-top: 150px;
   width: 75vw;
   max-width: 650px;

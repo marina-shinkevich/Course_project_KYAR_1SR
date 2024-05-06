@@ -38,12 +38,12 @@ header::after {
 .top-nav .logo a {
    
  
-    font-size: 23px;
+    font-size: 16px;
     margin-left:0px;
     text-decoration: none;
     color: rgb(255, 255, 255);
     width: 80px;
-    font-size: 1.2rem;
+   
     font-weight: 600;
     transition: color 0.2s ease-in-out;
    
@@ -283,7 +283,7 @@ li {
     }
     footer a{
         text-decoration: none;
-        margin-left: -130px;
+        margin-left: -80px;
         
     }
    
@@ -295,11 +295,15 @@ margin-bottom: -20px;
 height: 100px;
 text-align: center;
     } 
+    .footerav a{
+       margin-left: 40px;
+    }
     .social-icons {
     list-style: none;
     }
     .social-icons li {
     display: inline-block;
+    text-align: center;
 
     }
     .social-icons img {

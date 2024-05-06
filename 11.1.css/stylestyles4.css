@@ -4,6 +4,8 @@ body {
   width: 96%;
   height: 100%;
   background-image: url("https://catherineasquithgallery.com/uploads/posts/2021-02/1613250949_195-p-skachat-oboi-temno-sinii-fon-209.jpg");
+  height: 100vh;
+  margin: 0;
 }
 
 @media only screen and (max-width: 450px) {
@@ -137,8 +139,9 @@ p {
 
 .card1 {
   display: flex;
+  text-align: center;
   align-items: center;
-  margin-left: 400px;
+  margin-left: 300px;
   margin-top: 150px;
   width: 75vw;
   max-width: 650px;
