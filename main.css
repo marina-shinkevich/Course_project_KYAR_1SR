@@ -30,6 +30,9 @@ body {
         margin-top:-90px;
        
      }
+     #p1{
+        margin-top: 1px;
+     }
     }
     .detail .zag {
         display: inline-block;
@@ -65,4 +68,9 @@ body {
         color: #ffffff;
     }
 
-    
+    @media (min-width:480px) and (max-width: 800px) { 
+
+        #p1{
+            margin-top: 3px;
+        }
+    }

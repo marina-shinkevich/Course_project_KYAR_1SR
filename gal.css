@@ -180,6 +180,9 @@ font-family: 'Bahnschrift Light';
 #but{
     margin-left: 300px;
  }
+ #p1av{
+    margin-top: 5px;
+ }
  }
 @media only screen and (max-width: 450px) {
  .img1 {
@@ -257,6 +260,12 @@ font-family: 'Bahnschrift Light';
      .img1 {
      margin-top: 70px;
     }
+    #p1av{
+        margin-top: 5px;
+    }
+    .footerav a{
+        margin-left: 20px;
+      }
 }
 @media only screen and (min-width: 740px) {
   
@@ -349,7 +358,7 @@ margin-top: cap;
 
 width: 180px;
 height: 60px;
-margin-left: 600px;
+margin-left: 500px;
 
 cursor: pointer;
 margin-top: 40px;
@@ -388,4 +397,8 @@ stroke-dashoffset: -480;
 color: rgb(178, 18, 18);
 font-size: 18px;
 font-weight: 100;
+}
+.p1av{
+    margin-left: 270px;
+    margin-top: -5px;
 }

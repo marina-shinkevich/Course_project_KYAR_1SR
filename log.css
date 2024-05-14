@@ -173,3 +173,16 @@ margin-top: -40px;
 }
    
 }
+@media (min-width:480px) and (max-width: 800px) { 
+
+    .logo svg{
+        block-size: 90px;
+        margin-left: -380px;
+        
+
+    }
+    .form-box{
+        margin-top: -400px;
+        
+        }
+}
